@@ -19,15 +19,15 @@ function validate(){
 
     if (allLetter(first)===false){
         return true
-    };
+    }
 
     else if (allLetter(last)===false){
         return true
-    };
+    }
 
     else if (ValidateEmail(email)===false){
         return true
-    };
+    }
     
     else{
         alert("Feedback Sent Successfully");
