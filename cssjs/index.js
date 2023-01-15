@@ -28,10 +28,6 @@ function validate(){
     if (ValidateEmail(email)===false){
         return true
     };
-    
-    
-    alert("Feedback Sent Successfully");
-    
 
     
     
