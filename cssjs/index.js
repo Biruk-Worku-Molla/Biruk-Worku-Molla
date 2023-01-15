@@ -16,24 +16,20 @@ function validate(){
     let email = document.getElementById('email');
     let first = document.getElementById('first-name');
     let last = document.getElementById('last-name');
-    
-    let firstName = allLetter(first);
-    let secondName = allLetter(last);
-    let emailRes = ValidateEmail(email);
 
-    if (firstName===false){
+    if (allLetter(first)===false){
         return true
     };
 
-    if (secondName===false){
+    else if (allLetter(last)===false){
         return true
     };
 
-    if (emailRes===false){
+    else if (ValidateEmail(email)===false){
         return true
     };
     
-    if (firstName && secondName && emailRes){
+    else{
         alert("Feedback Sent Successfully");
     }
 
