@@ -1,0 +1,134 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    width: 90%;
+    margin: 6rem auto;
+    background-color: rgba(164, 164, 205,0.2);
+}
+
+.container__title,.container__vid,.content{
+    margin: 2rem auto;
+    font-size: 1.8rem;
+}
+
+.container__vid{
+    width: 50%;
+    min-width: 250px;
+}
+
+
+.content {
+    font-size: 1.2rem;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.description{
+    text-align: center;
+    margin: 2rem auto;
+    padding: 3rem;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 80%;
+    color: white;
+}
+
+
+/* ********************Contact Us Page********************************************* */
+
+.feedback{
+    width: 35rem;
+    height: fit-content;
+    margin: 5rem 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    box-shadow: 1px -1px 10px rgba(5, 5, 5,0.1),-1px 1px 10px rgba(5, 5, 5,0.1);
+}
+
+.feedback form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    padding: 2rem;
+    background-color: rgba(255, 217, 0, 0.8);
+
+}
+
+
+.feedback input{
+    font-size: 1rem;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    height: 2rem;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+}
+
+.btn{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: white;
+    margin: 2rem auto;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.feedback input:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    outline: none;
+    transition: 0.4s;
+}
+
+.container__text{
+    margin: 5rem 0;
+    width: 80%;
+    background-color: rgba(169, 124, 70,0.3);
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.info-table{
+    border-collapse: collapse;
+    margin: 3rem auto;
+    margin: 1rem;
+}
+
+.info-table td{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.contact-info__title{
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.audio-file{
+    width: 10rem;
+    min-width: 220px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .feedback{
+        width: 180px;
+        font-size: 0.6rem;
+    }
+}
+

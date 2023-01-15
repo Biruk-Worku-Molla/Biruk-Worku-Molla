@@ -1,0 +1,71 @@
+
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    margin: auto;
+}
+
+
+.rec-places, .rec-festivals,.content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 6rem 0;
+    
+}
+
+.rec-places__title,.rec-festivals__title,.content__title{
+    position: absolute;
+    top: 2rem;
+    font-size: 2rem;
+}
+
+.card{
+    width: 30%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 3px rgb(151, 151, 151),-1px -1px 3px rgb(151, 151, 151);
+    transition: 0.2s;
+    cursor: pointer;
+} 
+
+.card__img{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0),-1px -1px 5px rgb(0, 0, 0);
+
+}
+
+.pages{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+}
+
+.search-box{
+    margin: 3rem 2%;
+}
+
+.search-input{
+    padding: 5px;
+}
+
+.search-btn{
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0),-1px -1px 5px rgb(0, 0, 0);
+
+}

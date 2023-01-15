@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssjs/about.css">
+    <link rel="stylesheet" href="cssjs/mainStyle.css">
+    <title>Contact us</title>
+</head>
+
+<body lang="en">
+
+    
+    <header class="header">
+        <img class="logo" width="100px" src="images/logo.png" alt="Logo of the website">
+        <nav class="navigation">
+            <span class="navigation__ele"><a href="index.html">Home</a></span>
+            <span class="navigation__ele"><a href="hotels.html">Hotels</a></span>
+            <span class="navigation__ele"><a href="places.html">Places</a></span>
+            <span class="navigation__ele"><a href="festivals.html">Festivals</a></span>
+            <span class="navigation__ele"><a href="about.html">About us</a></span>
+            <span class="navigation__ele"><a href="contact.html">Contact us</a></span>
+        </nav>  
+        
+    <img class="menu menu--open" onclick="openMenu()" src="images/open-menu.png" alt="">
+    
+    <nav class="navigation--mobile">
+        <img class="menu menu--close" onclick="closeMenu()" src="images/close-menu.png" alt="">
+        <div class="navigation__elements">
+            <a class="navigation__home" href="index.html" >Home</a>
+            <a class="navigation__hotels" href="hotels.html" >Hotels</a>
+            <a class="navigation__places" href="places.html" >Places</a>
+            <a class="navigation__festivals" href="festivals.html" >Festivals</a>
+            <a class="navigation__about" href="about.html" >About Us</a>
+            <a class="navigation__contact" href="contact.html" >Contact us</a>  
+        </div>
+    </nav>
+
+    </header>
+    
+    <main class="container">  
+
+            <section class="container__title">
+                <h2>How can we help?</h2>
+            </section>
+
+            <section class="content">
+
+                <div class="contact-info"><h3 class="contact-info__title">Contact Info</h3>
+                    <table class="info-table">
+                        <tr><td>Address:</td><td><address>Addis Ababa, Ethiopia</address></td></tr>
+                        <tr><td>Phone:</td><td>+25194783293</td></tr>
+                        <tr><td>Email:</td><td>birukworku@gmail.com</td></tr>
+                    </table>
+                </div>
+
+                <div class="feedback">
+                    <form action="submit">
+                        
+                        <label for="first-name">First Name*</label>
+                        <input type="text" name="first-name" id="first-name"><br>
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" name="last-name" id="last-name"><br>
+                        <label for="email">email*</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="comment">Comment (optional)</label>
+                        <input type="text" name="comment" id="comment"><br>
+
+                        <button class="btn btn--submit" type="button" onclick="validate()">Submit</button>
+                    </form>
+                </div>
+
+                <audio class="audio-file" src="audios/audio.mp3" alt="Description of our services" controls alt="If you want to visit us"></audio>
+                
+            </section>
+    </main>
+
+    
+    <footer class="footer">
+        <img class="logo" width="100px" src="images/logo.png" alt="Logo of the website">
+        
+        <ul class="contact-info" >
+            <li>phone: +251967435283</li>
+            <li>email: birukworku@gmail.com</li> 
+            <li><Address>Addis Ababa, Ethiopia</Address></li>
+        </ul>
+
+        <div class="socials">
+            <a href="http://facebook.com/"><img width="40px" src="images/fb.png" alt="facebook icon"></a>
+            <a href="http://instagram.com/"><img width="40px" src="images/ig.svg" alt="instagram icon"></a>
+            <a href="http://telegram.com/"><img width="40px" src="images/tg.png" alt="telegam icon"></a>
+            <a href="http://twitter.com/"><img width="40px" src="images/tw.png" alt="twitter icon"></a>
+        </div>
+
+    </footer>
+
+    <script src="cssjs/index.js"></script>
+
+    
+</body>
+</html>
