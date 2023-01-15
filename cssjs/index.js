@@ -19,19 +19,19 @@ function validate(){
 
     if (allLetter(first)===false){
         return true
-    }
+    };
 
-    else if (allLetter(last)===false){
+    if (allLetter(last)===false){
         return true
-    }
+    };
 
-    else if (ValidateEmail(email)===false){
+    if (ValidateEmail(email)===false){
         return true
-    }
+    };
     
-    else{
-        alert("Feedback Sent Successfully");
-    }
+    
+    alert("Feedback Sent Successfully");
+    
 
     
     
